@@ -1,0 +1,15 @@
+/* Import the reindeer theme.*/
+/* This only allows us to use the mixins defined in it and does not add any styles by itself. */
+@import "../reindeer/reindeer.scss";
+
+@import "addons.scss";
+@import "vaadinaddoncomponents.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadinaddoncomponents.scss */
+.vaadinaddoncomponents {
+  @include reindeer;
+  @include addons;
+  @include multisplit;
+  @include vaadinaddoncomponents;
+}

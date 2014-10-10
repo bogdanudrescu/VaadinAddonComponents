@@ -1,0 +1,13 @@
+<module>
+    <inherits name="com.vaadin.DefaultWidgetSet" />
+
+	<!-- <stylesheet src="multisplit/styles.scss"/> -->
+
+    <!-- <set-configuration-property name="devModeRedirectEnabled" value="true" /> -->
+
+    <!-- Workaround to https://github.com/johndevs/dragdroplayouts/issues/17 -->
+    <!-- <set-property name="vaadin.profiler" value="false"/> -->
+    
+    <source path="client"/>
+    <source path="shared"/>
+</module>

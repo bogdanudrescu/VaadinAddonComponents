@@ -1,0 +1,9 @@
+com.vaadin.integration.eclipse.previousCompileAction=both
+com.vaadin.integration.eclipse.useLatestNightly=false
+com.vaadin.integration.eclipse.widgetsetBuildsSuspended=true
+com.vaadin.integration.eclipse.widgetsetCompilationEta=47723
+com.vaadin.integration.eclipse.widgetsetDirty=true
+com.vaadin.integration.eclipse.widgetsetExtraParameters=-strict
+com.vaadin.integration.eclipse.widgetsetStyle=PRETTY
+com.vaadin.integration.eclipse.widgetsetVerbose=true
+eclipse.preferences.version=1

@@ -1,0 +1,22 @@
+
+@mixin multisplit {
+	$primaryStyleName : v-splitpanel;
+
+	.#{$primaryStyleName}-hslot {
+		width: 100%;
+	}
+
+	.#{$primaryStyleName}-vslot {
+		height: 100%;
+	}
+
+}
+
+/* This contains all of your theme.*/
+/* If somebody wants to extend the theme she will include this mixin. */
+@mixin vaadinaddoncomponents {
+  /* Include all the styles from the reindeer theme */
+
+  /* Insert your theme rules here */
+  
+}
